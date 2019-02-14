@@ -3,7 +3,7 @@ require "json"
 require 'eventmachine'
 require 'faye/websocket'
 
-slackAPI = 'xoxb-549412087537-551465932470-h4yIQaZUWqG8AgJ3svepe5BA'
+# slackAPI = 'APIを入れる'
 
 response = HTTP.post("https://slack.com/api/rtm.start", 
     params: {
